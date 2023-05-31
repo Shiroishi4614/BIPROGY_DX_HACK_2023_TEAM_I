@@ -1,0 +1,370 @@
+/* 背景用のcss */
+.background-image {
+  background-image: url("./images/bdh_kabegami.png");
+  background-size: cover;
+  /* その他のスタイルプロパティを追加できます */
+}
+
+/* 中央寄せ用のcss */
+.text_center{
+  text-align:center;
+}
+.button_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pタグ、h1タグ、h2タグ、bodyタグ用のcss */
+p {
+  margin: 0; /* 上下のマージンを0に設定 */
+}
+h1 {
+  margin: 0; /* 上下のマージンを0に設定 */
+}
+h2 {
+  margin: 0; /* 上下のマージンを0に設定 */
+}
+body {
+  margin: 0; /* 上下のマージンを0に設定 */
+}
+
+/* トップページ用のcss */
+.top_title {
+  padding: 232px 0px 0px 0px;
+  font-size: 80px;
+}
+
+.top_sentence {
+  padding: 100px 0px;
+}
+
+.top_button {
+  padding: 0px 0px 233px 0;
+}
+
+/* インプットページ用のcss */
+.input_title {
+  padding: 55px 0px 30px 0px;
+}
+
+.input_last_button {
+  padding: 0px 0px 55px 0px;
+}
+
+/* プレゼンテーションページ用のcss */
+.presentation_title {
+  padding: 79px 0px 30px 0px;
+}
+
+.presentation_prompt {
+  padding: 19px 0px 0px 0;
+}
+
+.presentation_last_button {
+  padding: 0px 0px 79px 0px;
+}
+
+
+/* -----ボタン用のcss----- */
+/* 青色ボタン用のcss */
+.btn_blue,
+a.btn_blue,
+button.btn_blue {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-malformation_blue {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: #fff;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: blue;
+}
+
+a.btn-malformation_blue:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+/* インディゴ色ボタン用のCSS */
+.btn_indigo,
+a.btn_indigo,
+button.btn_indigo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-malformation_indigo {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: #fff;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: indigo;
+}
+
+a.btn-malformation_indigo:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+/* 紫色ボタン用のCSS */
+.btn_purple,
+a.btn_purple,
+button.btn_purple {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-malformation_purple {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: #fff;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: purple;
+}
+
+a.btn-malformation_purple:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+/* 赤色ボタン用のCSS */
+.btn_red,
+a.btn_red,
+button.btn_red {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-malformation_red {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: #fff;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: red;
+}
+
+a.btn-malformation_red:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+/* オレンジ色ボタン用のCSS */
+.btn_orange,
+a.btn_orange,
+button.btn_orange {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-malformation_orange {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: #fff;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: orange;
+}
+
+a.btn-malformation_orange:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+/* 緑色ボタン用のCSS */
+.btn_green,
+a.btn_green,
+button.btn_green {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-malformation_green {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: #fff;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: green;
+}
+
+a.btn-malformation_green:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+/* 黄色ボタン用のCSS */
+.btn_yellow,
+a.btn_yellow,
+button.btn_yellow {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-malformation_yellow {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: black;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: yellow;
+}
+
+a.btn-malformation_yellow:hover {
+  color: black;
+  border-radius: 60% 80% / 100% 80%;
+}
+/* -----ボタン用のcss----- */
+
+
+
+
+
+
+
+/* フェードイン用のcss */
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 5s ease-in forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
